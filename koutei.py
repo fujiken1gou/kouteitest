@@ -30,5 +30,5 @@ def kouteitesut():
             cellstr += " %s " % value
         print(cellstr)
 
-if __name__ == '__main__'
+if __name__ == '__main__':
     app.run()
