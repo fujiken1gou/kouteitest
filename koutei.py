@@ -29,6 +29,7 @@ def kouteitesut():
                 value = "None"
             cellstr += " %s " % value
         print(cellstr)
+        return render_template(run.html,cellstr)
 
 if __name__ == '__main__':
     app.run()
